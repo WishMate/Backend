@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://wishmate.cjelkvxsupxb.us-east-1.rds.amazonaws.com:3306/wishmate
+    username: wishmate
+    password : wishmate123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
